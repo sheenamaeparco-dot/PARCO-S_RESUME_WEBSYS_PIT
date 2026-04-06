@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;       
+    align-items: flex-start;           
+    padding:0;
+}
+
+/*links*/
+
+.links a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 1.0;
+    color: #ddd;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    background-color: #1A252F;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+    margin-bottom: 0px;
+}
+
+
+.image {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit:cover;
+    object-position: center 5%;
+    border: 3px solid #ddd;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.image-con {
+    justify-content: center;
+    display: flex;
+}
+
+/*sidebar-left*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #22313F;
+    padding: 25px;
+    min-height: 285vh;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 1.2rem ;
+    margin-top: 20px;
+}
+
+.sidebar p, .sidebar li {
+    margin: 4px 0;
+    color: #ddd;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+/*sidebar-left*/
+
+.contact {
+    padding: 10px;
+}
+
+.contact h4 {
+    color: #FFFFFF;
+    background-color:#3498db;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    padding:3px 25px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    
+}
+
+.contact p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h4 {
+    color: #FFFFFF;
+    background-color:#3498db;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 3px 25px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+
+}
+
+.skillsList {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nameJob {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+    margin-top: 0;
+    gap: 0px;
+    padding: 0;
+}
+
+.nameJob h1 {
+    margin: 0 0 10px 0;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.firstName {
+    color: #2F5D66;
+}
+
+.lastName {
+    color: #4FB3D9 ;
+}
+
+
+.jobtitle {
+    color: #22313F;
+    font-size: 1.5rem;
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.name-jobtitle {
+    background-color:#F0F0F0;
+    width: 100%;
+    padding: 25px 35px; 
+    margin: 0;
+}
+
+.aboutmeDescription {
+    margin-top: 0px;
+    padding: 20px 35px; 
+}
+
+.aboutmeDescription h3 {
+    margin-bottom: 8px;
+    background-color: skyblue;
+    padding: 5px;
+}
+
+.aboutmeDescription p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.education {
+    padding: 20px 35px; 
+}
+
+.education h3 {
+    color: #1A252F ;
+    margin-bottom: 8px;
+    background-color: aliceblue;
+    padding: 5px;
+
+}
+
+.educationList li {
+    margin-bottom: 20px;
+}
+
+.educationList h4 {
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.educationList p {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+.projects {
+   padding: 20px 35px;
+}
+
+.projects h3 {
+    color: #1A252F;
+    margin-bottom: 8px ;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.projects li {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* contact-section */
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+.contactform-section h3 {
+    color: #1A252F;
+    margin-bottom: 15px;
+    padding: 20px 30px;
+    background-color: aliceblue;
+}
+
+#contactForm label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#contactForm input, 
+#contactForm button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+#contactForm button {
+    cursor: pointer;
+    background-color:#3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    align-self: flex-start;
+}
+
+.aboutmeDescription,
+.education,
+.projects,
+.contactform-section {
+    padding: 25px 35px;
+    margin-bottom: 10px;
+}
+
+.aboutmeDescription h3,
+.education h3,
+.projects h3,
+.contactform-section h3 {
+    color: #FFFFFF;
+    background-color:#3498db;
+    margin: 15px -35px 20px -35px;
+    padding: 8px 35px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* fixed */
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.projects h3 {
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.projects h3:hover {
+    background-color: skyblue; 
+}
+
+/* DARK MODE */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .name-jobtitle {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .sidebar {
+    background-color: #000000;
+}
+
+.dark-mode .aboutmeDescription h3,
+.dark-mode .education h3,
+.dark-mode .projects h3,
+.dark-mode .contactform-section h3 {
+    background-color: #3498db;
+}
+
+.dark-mode a {
+    color: #4FB3D9;
+}
+
+#darkModeBtn {
+    padding: 5px 10px;
+    background-color: #4FB3D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
