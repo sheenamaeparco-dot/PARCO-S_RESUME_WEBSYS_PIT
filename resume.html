@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Parco's Resume</title>
+</head>
+<body>    
+
+    <div class="Main">
+
+
+        <nav class="links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            <button id="darkModeBtn">Dark Mode</button>
+        </nav>
+
+        <div class="header-container">
+    <div class="sidebar">
+        <div class="image-con">
+            <img class="image" src="Images/profilePicture.jpg" alt="profile picture of me">
+        </div>
+        
+    
+        <div class="contact">
+            <h4>CONTACT</h4>
+
+            <p class="label"><strong>Phone:</strong></p>
+            <p class="value">09659248658</p>
+
+            <p class="label"><strong>Email:</strong></p>
+            <p class="value">sheenaparco@gmail.com</p>
+
+            <p class="label"><strong>Address:</strong></p>
+            <p class="value">Molugan, El Salvador City</p>
+        </div>
+
+
+        <div class="skills" id="skills">
+            <h4>SKILLS</h4>
+            <input type="text" id="skillSearch" placeholder="Search skills..." style="width: 100%; margin-bottom: 10px; padding: 5px;">
+
+            <ul class="skillsList">
+                <li>Canva</li>
+                <li>UI/UX Design</li>
+                <li>Web and Mobile Design</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="nameJob">
+        <div class="name-jobtitle">
+            <h1 class="firstName">Sheena Mae </h1>
+            <h1 class="lastName">Parco</h1>
+            <p class="jobtitle">Web Designer</p>
+        </div>
+        
+        <div class="aboutmeDescription" id="about">
+            <h3>ABOUT ME</h3>
+            <p>
+                I am a BSIT student who is passionate about technology and learning new things. I am improving my skills in web development and programming, and I enjoy solving problems using logic and creativity. I am eager to learn, grow, and use my knowledge in real-life situations.
+                I can work well both independently and with a team, and I believe teamwork helps create better ideas and solutions. I am responsible, positive, and always willing to improve myself. I hope to use my skills to contribute to meaningful projects in the future.            
+            </p>
+        </div>
+
+    <div class="education" id="education">
+        <h3>EDUCATION</h3>
+        <ul class="educationList">
+            <li>
+                <h4>Bulua National High School-PATAG ANNEX</h4>
+                <p>Graduated with honors, Class of 2022</p>
+            </li>
+            <li>
+                <h4>PHINMA Cagayan de Oro College | SHS</h4>
+                <p>Graduated with honors, Class of 2024</p>
+            </li>
+            <li>
+                <h4>University of Science and Technology of Southern Philippines | BSIT
+                </h4>
+                <p>Bachelor of Science in Information Technology</p>
+                <p>Graduating Class of 2028</p>
+            </li>
+        </ul>
+    </div>
+
+        <div class="projects" id="projects">
+            <h3>PROJECTS</h3>
+            <ul>
+                <li>Personal Resume Website</li>
+                <li>UI Layout Mockup in Canva</li>
+                <li>Simple Web Page Design Project</li>
+                <li>Personal Portfolio Website</li>
+            </ul>
+        </div>
+
+        <div class="contactform-section" id="contact">
+            <h3>CONTACT ME</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+            
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="resume.js"></script>
+
+ </body>
+</html>
